@@ -33,7 +33,7 @@ type EbayItemPrice struct {
 func main() {
 	// define flag
 	flagItemId := flag.String("item-id", "", "")
-	flagListingType := flag.String("listing-type", "BEST_OFFER_ACCEPTED", "")
+	flagListingType := flag.String("listing-type", "BEST_OFFER", "")
 	flag.Parse()
 
 	if *flagItemId == "" {
